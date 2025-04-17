@@ -3,6 +3,18 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8">
+      <div className="w-1/2 box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white text-5xl">
+        Hello
+        <br />
+        World
+      </div>
+
+      <div className="w-1/2 box-decoration-clone bg-linear-to-r text-5xl from-indigo-600 to-pink-500 px-2 text-white">
+        Hello
+        <br />
+        World
+      </div>
+
       <div className="columns-2">
         <p className="break-inside-avoid-column">
           Well, let me tell you something, ...
