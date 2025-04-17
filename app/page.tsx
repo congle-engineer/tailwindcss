@@ -3,6 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8">
+      <div className="box-border size-32 border-4 p-4">
+        <p>A simple text here</p>
+      </div>
+
+      <div className="box-content size-32 border-4 p-4">
+        <p>A simple text here</p>
+      </div>
+
       <div className="w-1/2 box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white text-5xl">
         Hello
         <br />
