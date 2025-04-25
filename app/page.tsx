@@ -3,6 +3,46 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8">
+      <Image
+        className="h-48 w-96 object-cover"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={1000}
+        height={1000}
+      />
+
+      <Image
+        className="h-48 w-96 object-contain"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={1000}
+        height={1000}
+      />
+
+      <Image
+        className="h-48 w-96 object-fill"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={1000}
+        height={1000}
+      />
+
+      <Image
+        className="h-48 w-96 object-scale-down"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={1000}
+        height={1000}
+      />
+
+      <Image
+        className="h-48 w-96 object-none"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={1000}
+        height={1000}
+      />
+
       <article>
         <Image
           className="float-left"
