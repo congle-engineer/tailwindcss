@@ -3,6 +3,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8">
+      <div className="relative bg-blue-100 p-4">
+        <div className="relative bg-green-300 top-0 left-0">Relative Box</div>
+        <div className="absolute bg-red-300 top-0 left-0">Absolute Box</div>
+      </div>
+
+      <div className="static bg-yellow-100">
+        <p>Static parent</p>
+        <div className="absolute bottom-0 left-0">
+          <p>Absolute child</p>
+        </div>
+      </div>
+
+      <div className="w-100 h-50 relative bg-gray-100">
+        <p>Relative parent</p>
+        <div className="absolute bottom-0 left-0">
+          <p>Absolute child</p>
+        </div>
+      </div>
+
       <div className="w-100 h-50 overflow-auto overscroll-contain">
         Well, let me tell you something, funny boy. Y'know that little stamp,
         the one that says "New York Public Library"? Well that may not mean
