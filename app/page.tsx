@@ -3,6 +3,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8">
+      <div className="w-100 h-100">
+        <Image
+          className="size-24 object-center"
+          src="/img/snow-mountains.jpg"
+          alt="Snow Mountains"
+          width={1000}
+          height={1000}
+        />
+      </div>
+
       <Image
         className="h-48 w-96 object-cover"
         src="/img/snow-mountains.jpg"
