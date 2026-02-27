@@ -1,8 +1,32 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
+      <article>
+        <Image
+          className="float-right"
+          src="/img/snow-mountains.jpg"
+          alt="Mountains"
+          width={200}
+          height={200}
+        />
+        <p>
+          Maybe we can live without libraries, people like you and me. Maybe.
+          Sure, we&apos;re too old to change the world, but what about that kid,
+          sitting down, opening a book, right now, in a branch at the local
+          library and finding drawings of pee-pees and wee-wees on the Cat in
+          the Hat and the Five Chinese Brothers? Doesn&apos;t HE deserve better?
+          Look. If you think this is about overdue fines and missing books,
+          you&apos;d better think again. This is about that kid&apos;s right to
+          read a book without getting his mind warped! Or: maybe that turns you
+          on, Seinfeld; maybe that&apos;s how y&apos;get your kicks. You and
+          your good-time buddies.
+        </p>
+      </article>
+      <hr />
+
       <p>
         When controlling the flow of text, using the CSS property{" "}
         <span className="inline">display: inline</span> will cause the text
@@ -133,16 +157,22 @@ export default function Home() {
           className="aspect-3/2"
           src="/img/mountain1.jpg"
           alt="Mountain1"
+          width={200}
+          height={200}
         />
         <Image
           className="aspect-square"
           src="/img/mountain2.jpg"
           alt="Mountain2"
+          width={200}
+          height={200}
         />
         <Image
           className="aspect-square"
           src="/img/mountain3.jpg"
           alt="Mountain3"
+          width={200}
+          height={200}
         />
       </div>
       <hr />
@@ -151,6 +181,8 @@ export default function Home() {
         className="aspect-3/2 object-cover"
         src="/img/villas.jpg"
         alt="Villas"
+        width={200}
+        height={200}
       />
       <iframe
         className="aspect-video md:aspect-square"
