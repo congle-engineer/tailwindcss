@@ -4,6 +4,26 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="m-16 bg-gray-400 p-16">
+        <Image
+          className="size-8 object-top-left"
+          src="/img/snow-mountains.jpg"
+          alt="Snow Mountains"
+          width={96}
+          height={48}
+        />
+      </div>
+
+      <div className="m-16 bg-gray-400 p-16">
+        <Image
+          className="size-8 object-center"
+          src="/img/snow-mountains.jpg"
+          alt="Snow Mountains"
+          width={96}
+          height={48}
+        />
+      </div>
+
       <h1>Object Cover</h1>
       <Image
         className="h-48 w-96 object-cover"
