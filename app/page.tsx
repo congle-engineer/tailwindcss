@@ -4,6 +4,39 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="my-8 grid grid-cols-3 gap-4">
+        <div className="h-16 bg-gray-400">01</div>
+        <div className="invisible h-16 bg-gray-400">02</div>
+        <div className="h-16 bg-gray-400">03</div>
+      </div>
+      <table className="border-black-500 border">
+        <thead>
+          <tr>
+            <th>Invoice #</th>
+            <th>Client</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#100</td>
+            <td>Pendant Publishing</td>
+            <td>$2,000.00</td>
+          </tr>
+          <tr className="collapse">
+            <td>#101</td>
+            <td>Kruger Industrial Smoothing</td>
+            <td>$545.00</td>
+          </tr>
+          <tr>
+            <td>#102</td>
+            <td>J.Peterman</td>
+            <td>$10,000.25</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+
       <div className="relative m-4 size-32 bg-yellow-400">
         <div className="absolute top-0 left-0 size-16 bg-gray-400">01</div>
       </div>
