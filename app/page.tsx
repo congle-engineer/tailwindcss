@@ -4,6 +4,48 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <h1>Object Cover</h1>
+      <Image
+        className="h-48 w-96 object-cover"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={960}
+        height={480}
+      />
+      <h1>Object Contain</h1>
+      <Image
+        className="h-48 w-96 object-contain"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={960}
+        height={480}
+      />
+      <h1>Object Fill</h1>
+      <Image
+        className="h-48 w-96 object-fill"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={960}
+        height={480}
+      />
+      <h1>Object Scale Down</h1>
+      <Image
+        className="h-48 w-96 object-scale-down"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={960}
+        height={480}
+      />
+      <h1>Object None</h1>
+      <Image
+        className="h-48 w-96 object-none"
+        src="/img/snow-mountains.jpg"
+        alt="Snow Mountains"
+        width={960}
+        height={480}
+      />
+      <hr />
+
       <div className="isolate">
         <h1>Isolation</h1>
       </div>
