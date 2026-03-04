@@ -4,6 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="overflow-visible">
+        <h1>Overflow Visible</h1>
+      </div>
+      <hr />
+
       <div className="m-16 bg-gray-400 p-16">
         <Image
           className="size-8 object-top-left"
