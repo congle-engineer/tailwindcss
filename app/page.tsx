@@ -4,6 +4,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="flex">
+        <div className="z-50 -ml-0 flex h-16 w-16 items-center justify-center rounded-full bg-red-500 font-bold text-white">
+          5
+        </div>
+        <div className="z-40 -ml-4 flex h-16 w-16 items-center justify-center rounded-full bg-blue-500 font-bold text-white">
+          4
+        </div>
+        <div className="z-30 -ml-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 font-bold text-white">
+          3
+        </div>
+        <div className="z-20 -ml-4 flex h-16 w-16 items-center justify-center rounded-full bg-yellow-500 font-bold text-white">
+          2
+        </div>
+        <div className="z-10 -ml-4 flex h-16 w-16 items-center justify-center rounded-full bg-purple-500 font-bold text-white">
+          1
+        </div>
+      </div>
+      <hr />
+
       <div className="my-8 grid grid-cols-3 gap-4">
         <div className="h-16 bg-gray-400">01</div>
         <div className="invisible h-16 bg-gray-400">02</div>
