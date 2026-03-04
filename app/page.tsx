@@ -4,6 +4,35 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute top-0 left-0 size-16 bg-gray-400">01</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute inset-x-0 top-0 h-16 bg-gray-400">02</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute top-0 right-0 size-16 bg-gray-400">03</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute inset-y-0 left-0 w-16 bg-gray-400">04</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute inset-0 bg-gray-400">05</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute inset-y-0 right-0 w-16 bg-gray-400">06</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute bottom-0 left-0 size-16 bg-gray-400">07</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-gray-400">08</div>
+      </div>
+      <div className="relative m-4 size-32 bg-yellow-400">
+        <div className="absolute right-0 bottom-0 size-16 bg-gray-400">09</div>
+      </div>
+      <hr />
+
       <div className="relative h-96">
         <p>Relative parent</p>
         <div className="absolute bottom-0 left-0">
