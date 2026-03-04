@@ -4,6 +4,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="relative h-96">
+        <p>Relative parent</p>
+        <div className="absolute bottom-0 left-0">
+          <p>Absolute child</p>
+        </div>
+      </div>
+      <hr />
+
       <div className="m-8 h-48 w-96 overflow-auto overscroll-auto">
         <p>
           Well, let me tell you something, funny boy. Y'know that little stamp,
@@ -27,7 +35,7 @@ export default function Home() {
       </div>
       <hr />
 
-      <div className="m-16 bg-gray-400 p-16">
+      <div className="m-4 h-48 bg-gray-400">
         <Image
           className="size-8 object-top-left"
           src="/img/snow-mountains.jpg"
@@ -37,7 +45,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="m-16 bg-gray-400 p-16">
+      <div className="m-4 h-48 bg-gray-400">
         <Image
           className="size-8 object-center"
           src="/img/snow-mountains.jpg"
