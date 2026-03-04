@@ -4,6 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="isolate">
+        <h1>Isolation</h1>
+      </div>
+      <hr />
+
       <article>
         <Image
           className="float-left"
