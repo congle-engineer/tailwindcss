@@ -1,10 +1,15 @@
-"use client";
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello World! I&apos;m Cong Le</h1>
+      <Button>Click me</Button>
     </div>
   );
 }
