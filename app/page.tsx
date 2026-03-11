@@ -4,7 +4,46 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="my-4 flex flex-row-reverse gap-4">
+      <div className="my-4 flex gap-4">
+        <div className="w-14 flex-none rounded-2xl bg-pink-400 p-8 text-center">
+          01
+        </div>
+        <div className="w-64 flex-1 rounded-2xl bg-pink-400 p-8 text-center">
+          02
+        </div>
+        <div className="w-32 flex-1 rounded-2xl bg-pink-400 p-8 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
+      <div className="my-4 flex gap-4">
+        <div className="w-14 flex-none rounded-2xl bg-blue-400 p-8 text-center">
+          01
+        </div>
+        <div className="w-64 flex-initial rounded-2xl bg-blue-400 p-8 text-center">
+          02
+        </div>
+        <div className="w-32 flex-initial rounded-2xl bg-blue-400 p-8 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
+      <div className="my-4 flex gap-4">
+        <div className="w-14 flex-none rounded-2xl bg-orange-400 p-8 text-center">
+          01
+        </div>
+        <div className="w-64 flex-auto rounded-2xl bg-orange-400 p-8 text-center">
+          02
+        </div>
+        <div className="w-32 flex-auto rounded-2xl bg-orange-400 p-8 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
+      <div className="my-4 flex flex-row-reverse flex-wrap gap-4">
         <div className="basis-3xs rounded-2xl bg-gray-400 p-4 text-center">
           01
         </div>
