@@ -5,6 +5,32 @@ export default function Home() {
   return (
     <div>
       <div className="my-4 flex gap-4">
+        <div className="size-14 flex-none rounded-2xl bg-pink-400 p-8 text-center">
+          01
+        </div>
+        <div className="size-14 grow rounded-2xl bg-pink-400 p-8 text-center">
+          02
+        </div>
+        <div className="size-14 flex-none rounded-2xl bg-pink-400 p-8 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
+      <div className="my-4 flex gap-4">
+        <div className="size-14 grow-3 rounded-2xl bg-pink-400 p-8 text-center">
+          01
+        </div>
+        <div className="size-14 grow-7 rounded-2xl bg-pink-400 p-8 text-center">
+          02
+        </div>
+        <div className="size-14 grow-3 rounded-2xl bg-pink-400 p-8 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
+      <div className="my-4 flex gap-4">
         <div className="w-14 flex-none rounded-2xl bg-pink-400 p-8 text-center">
           01
         </div>
