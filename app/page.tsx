@@ -4,6 +4,19 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      <div className="my-4 flex flex-row-reverse gap-4">
+        <div className="basis-3xs rounded-2xl bg-gray-400 p-4 text-center">
+          01
+        </div>
+        <div className="basis-3xs rounded-2xl bg-gray-400 p-4 text-center">
+          02
+        </div>
+        <div className="basis-3xs rounded-2xl bg-gray-400 p-4 text-center">
+          03
+        </div>
+      </div>
+      <hr />
+
       <div className="my-4 flex flex-row gap-4">
         <div className="basis-64 rounded-3xl bg-purple-500 p-16 text-center">
           01
